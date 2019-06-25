@@ -1,0 +1,248 @@
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+header {
+  background: url("../img/m-h-day.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 10px 10%;
+  border-radius: 0 0 40% 0;
+  color: #212430;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.landing-logo img {
+  margin-right: 12px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+.landing-logo p {
+  display: inline-block;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1;
+  font-family: "Hind", sans-serif;
+}
+.landing-logo p span {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.header_heading {
+  font-size: 73px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 1;
+  width: 700px;
+  margin-top: 60px;
+  margin-bottom: 45px;
+  position: relative;
+  z-index: 20;
+}
+.header_heading::after {
+  content: "";
+  position: absolute;
+  z-index: -20;
+  width: 295px;
+  height: 32px;
+  background-color: #0e9dc4;
+  left: 0px;
+  bottom: 0px;
+}
+
+.header_text {
+  width: 76%;
+  white-space: pre-line;
+  font-size: 17px;
+  font-family: "Hind", sans-serif;
+  line-height: 26px;
+}
+
+.header_button, .section_banner_button {
+  padding: 12px 38px;
+  background-color: #669609;
+  border: none;
+  color: #fff;
+  margin: 55px 0 140px 0;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+main.section {
+  padding: 10px 10%;
+  color: #212430;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.section_text {
+  font-size: 53px;
+  display: block;
+  width: 530px;
+  margin: 37px auto 47px;
+  position: relative;
+  color: #212430;
+  font-weight: 600;
+}
+.section_text::after {
+  content: "";
+  position: absolute;
+  z-index: -20;
+  width: 238px;
+  height: 22px;
+  background-color: #0e9dc4;
+  right: 18px;
+  bottom: 5px;
+}
+
+.section_card_wrap {
+  display: flex;
+  font-family: "Hind", sans-serif;
+  font-size: 21px;
+}
+
+.section_card {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #161823;
+  color: #c3c6d1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 200;
+}
+.section_card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section_card:nth-child(2) {
+  margin: 0 2%;
+}
+
+p.section_card_text {
+  line-height: 29px;
+}
+
+.section_card_heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  position: relative;
+  z-index: 20;
+}
+
+.section_card_underline {
+  position: relative;
+  z-index: -40;
+}
+
+.section_card:nth-child(1) .section_card_underline::after {
+  width: 253px;
+  left: -251px;
+}
+
+.section_card:nth-child(2) .section_card_underline::after {
+  width: 216px;
+  left: -212px;
+}
+
+.section_card:nth-child(3) .section_card_underline::after {
+  width: 169px;
+  left: -164px;
+}
+
+.section_card_underline::after {
+  content: "";
+  position: absolute;
+  z-index: -20;
+  height: 18px;
+  background-color: #0e9dc4;
+  bottom: 0px;
+}
+
+.section_banner {
+  border-radius: 7px;
+  background: linear-gradient(to right, #60901d 0%, #4a796f 50%, #2d5bda 100%);
+  z-index: 20;
+  position: relative;
+  margin: 184px auto -88px;
+  padding: 15px 35px;
+  width: 860px;
+}
+
+.section_banner_heading {
+  font-weight: 700;
+  font-size: 31px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 20;
+}
+.section_banner_heading::after {
+  content: "";
+  position: absolute;
+  z-index: -20;
+  width: 67px;
+  height: 13px;
+  background-color: #0e9dc4;
+  left: 125px;
+  bottom: 4px;
+}
+
+.section_banner_button {
+  float: right;
+  margin: 50px;
+}
+
+.section_banner_text {
+  font-family: "Hind", sans-serif;
+  color: #c3c6d1;
+  font-size: 18px;
+  margin-bottom: 33px;
+}
+
+.section_banner_text_wrap {
+  display: inline-block;
+  padding-left: 55px;
+}
+
+footer {
+  padding: 150px 10% 60px;
+  background-color: #161823;
+  color: c;
+}
+footer .footer_logo {
+  display: inline-block;
+  position: absolute;
+  top: -5%;
+  margin: 0 auto;
+}
+footer .footer_text {
+  width: 317px;
+  margin: 0 auto;
+  position: relative;
+  font-family: "Hind", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+}
+footer .footer-cr {
+  position: absolute;
+  right: 0;
+  top: 37%;
+  font-size: 17px;
+  font-family: "Hind", sans-serif;
+}
+
+.footer-wrap {
+  position: relative;
+  color: #c3c6d1;
+}
