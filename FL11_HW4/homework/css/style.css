@@ -1,0 +1,40 @@
+body{
+	min-width: 900px;
+	max-width: 1920px;
+	background-color: lightseagreen;
+}
+header{
+
+}
+main{
+
+}
+footer{
+
+}
+/*---------------------------------------------------------- HEADER  */
+.main-header{
+	background-color: plum;
+	height: -webkit-fill-available;
+	background: url(../img/sample2.jpg) center center no-repeat;
+	background-size: cover;
+}
+/*---------------------------------------------------------- MAIN  */
+.main-content{
+	background-color: lightskyblue;
+	min-height: 300px;
+}
+.content-box{
+
+}
+.info-box{
+
+}
+.gallery-box{
+	
+}
+/*---------------------------------------------------------- FOOTER  */
+.main-footer{
+	background-color: mediumpurple;
+	min-height: 300px;
+}
