@@ -90,6 +90,7 @@ h2 {
 	display: inline-block;
 	height: 150px;
 	width: 100%;
+	padding-top: 30px;
 }
 .ms-right-side {
 	font-family: "Open Sans";
