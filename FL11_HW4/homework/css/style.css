@@ -86,11 +86,12 @@ h2 {
 }
 .block-diagonal {
 	background-color: #000;
-	background-image: linear-gradient(to left bottom, #000 50%, #f3f3f3 49.5%);
+	background-image: linear-gradient(to left bottom, #000 49.8%, #f3f3f3 50.2%);
 	display: inline-block;
 	height: 150px;
 	width: 100%;
 	padding-top: 30px;
+	margin-top: -1px;
 }
 .ms-right-side {
 	font-family: "Open Sans";
