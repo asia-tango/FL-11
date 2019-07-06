@@ -26,10 +26,10 @@ if ( userEmail === '' || userEmail === null ) {
 						alert( 'You wrote the wrong password.' );
 					}
 				}
-			} 
-		} else {
+			} else {
 			alert( 'You have failed the change.' );
-		}
+			}
+		} 
 	} else if ( passUser === '' || passUser === null ) {
 		alert( 'Canceled!' );
 	} else {
@@ -53,10 +53,10 @@ if ( userEmail === '' || userEmail === null ) {
 						alert( 'You wrote the wrong password.' );
 					}
 				}
-			} 
-		} else {
+			} else {
 			alert( 'You have failed the change.' );
-		}
+			}
+		} 
 	} else if ( passAdmin === '' || passAdmin === null ) {
 		alert( 'Canceled!' );
 	} else {
