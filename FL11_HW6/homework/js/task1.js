@@ -1,4 +1,4 @@
-const two = 2;
+const TWO = 2;
 
 let a1 = parseFloat( prompt( 'Enter the coordinate point a1', '' ) ); 
 let a2 = parseFloat( prompt( 'Enter the coordinate point a2', '' ) );  
@@ -12,7 +12,7 @@ if ( isNaN(a1) || isNaN(a2) || isNaN(b1) || isNaN(b2) || isNaN(c1) || isNaN(c2) 
 } else if ( a1===b1 || a1===c1 || a2===b2 || a2===c2 ) {
 	console.log( false );
 } else { 
-	let x = ( a1 + b1 ) / two;
-	let y = ( a2 + b2 ) / two;
+	let x = ( a1 + b1 ) / TWO;
+	let y = ( a2 + b2 ) / TWO;
 	console.log( x===c1 && y===c2 );
 }

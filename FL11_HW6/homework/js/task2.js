@@ -1,5 +1,3 @@
-const two = 2;
-
 let a = parseFloat( prompt( 'Enter the coordinate point a:', '' ) ); 
 let b = parseFloat( prompt( 'Enter the coordinate point b:', '' ) ); 
 let c = parseFloat( prompt( 'Enter the coordinate point c:', '' ) );  
