@@ -1,5 +1,2 @@
-function isSmaller(x, y) {
-	return x < y;
-}
-
+let isSmaller = (x, y) => x < y;
 isSmaller(1, 2);

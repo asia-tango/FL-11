@@ -1,5 +1,5 @@
-function isInteger (number) {
-	let toInt = parseInt(number);
-	return number === toInt;
+function isInteger (numberResult) {
+	let toInt = parseInt(numberResult);
+	return numberResult === toInt;
 }
 isInteger(12);

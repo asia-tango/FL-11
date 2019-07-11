@@ -1,10 +1,10 @@
-function reverseNumber(number) {
+function reverseNumber(numberResult) {
   let result = 0, basis;
   do {
-    basis = number % 10;
+    basis = numberResult % 10;
     result = (result * 10) + basis;
-    number = ~~(number/10);
-  } while (number);
+    numberResult = ~~(numberResult / 10);
+  } while (numberResult);
   return result;
 } 
 reverseNumber(123);
