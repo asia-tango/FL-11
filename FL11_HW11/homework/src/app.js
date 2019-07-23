@@ -5,7 +5,7 @@ let count = 0;
 function newElement() {
 	if (count < TEN) {
 		let li = document.createElement('li');
-		let inputValue = document.getElementById('toDoEl').value;	
+		let inputValue = document.getElementById('toDoEl').value;
 		if(inputValue === '' || inputValue === null) {
 			alert('Enter your action!');
 		} else {
@@ -19,12 +19,11 @@ function newElement() {
 					<i class='material-icons input-box remove-btn'>delete</i>
 				</div>`;
 			let ul = document.getElementById('list');
-			ul.appendChild(li);  
+			ul.appendChild(li);
 			document.getElementById('toDoEl').value = '';
 		}
 		events(li);
 		count+=1;
-		console.log(count);
 	} else {
 		let header = document.getElementById('main-header');
 		header.innerHTML = `<h3>Maximum item per list are created</h3>`;
@@ -32,12 +31,9 @@ function newElement() {
 }
 	function events(li) {
 		let removeButton = li.querySelector('.remove-btn');
-//		let editButton = li.querySelector('.edit-btn');
 		removeButton.addEventListener('click', deleteTask);
-//		editButton.addEventListener('click', editTask);
 	}
 	function deleteTask() {
 		this.parentNode.remove();
 		count-=1;
-		console.log(count);
 	}
