@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
   <title>Homework 12 - Simple TODO List</title>
-  <link rel="stylesheet" href="./assets/styles.css">
 </head>
-<body>
-  <div id="root"></div>
 
+<body>
+  <div id="todo">
+    <div id="rightDiv">
+      <span id="tasks"></span>
+    </div>
+    <h2 id="heading">Simple TODO application</h2>
+    <h3 id="welcomeMsg">_</h3>
+    <div id="inputs">
+      <input type="text" id="addMore" placeholder="Add todo" />
+      <button onclick="todo()" id="addBtn">+</button>
+    </div>
+    <ul id="content"></ul>
+
+  </div>
   <script src="./src/app.js"></script>
 </body>
+
 </html>

@@ -1,2 +1,85 @@
-/* Your styles go here */
+body {
+    background: #efefef;
+    font-family: 'Titillium Web', sans-serif;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+    padding: 8px 12px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #46529d;
+  border-radius:5px;
+}
+li:nth-child(odd) {
+    background: #eee;
+}
 
+li:nth-child(even) {
+    background: #fff;
+}
+
+li:first-child{
+    margin-top: 0 !important;
+}
+ul {
+    padding: 0
+}
+#heading {
+    text-align: center;
+}
+::placeholder {
+    color: #ccc;
+    opacity: 1;
+}
+#addBtn {
+    background: #ff0000;
+    border: 0;
+    color: #fff;
+    outline: 0;
+    padding: 7px 20px;
+    font-size: 20px;
+}
+#addBtn:hover {
+    cursor: pointer;
+}
+#todo {
+    width: 100%;
+    max-width: 350px;
+    background: #800000;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius:10px;
+    color: #fff;
+}
+#addMore {
+    width: 80%;
+    height: 30px;
+    background: none;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+#content {
+    display: none;
+    overflow-y: auto;
+    height: 190px;
+}
+#welcomeMsg {
+    text-align: center;
+    margin-top: 0;
+}
+#inputs {
+    width: 100%;
+    text-align: center;
+}
+.fa-edit::before, .fa-remove::before, .fa-close::before {
+    color: #ff0000;
+}
